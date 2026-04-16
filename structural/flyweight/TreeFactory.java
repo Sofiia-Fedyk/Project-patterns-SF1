@@ -3,7 +3,6 @@ package structural.flyweight;
 import java.util.HashMap;
 import java.util.Map;
 
-// Factory caches TreeType objects so identical types are never created twice
 public class TreeFactory {
     private static final Map<String, TreeType> cache = new HashMap<>();
 
